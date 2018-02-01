@@ -16,5 +16,7 @@ Spring Cloud OAuth Demo Using Github as Auth Server
 3. Use postman to run the dummy service : http://localhost:9001/services/api/v1/dummy
     
     3.1. Add this header in postman
-          *Key : Authorization
-          *Value: Bearer <token from github>
+
+            *Key : Authorization
+
+            *Value: Bearer <token from github>
