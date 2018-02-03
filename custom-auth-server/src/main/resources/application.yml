@@ -1,0 +1,14 @@
+server:
+  port: 9002
+  context-path: /services
+
+
+security:
+  user:
+    role: USER
+  oauth2:
+    client:
+      client-id: dummyid
+      client-secret: dummysecret
+      authorized-grant-types: authorization_code,refresh_token,password,client_credentials
+      scope: dummy_read,dummy_report
